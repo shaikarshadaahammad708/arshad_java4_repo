@@ -5,6 +5,7 @@ public class Student {
 	private int age;
 	private String grade;
 	private String studentId;
+	private static int idCounter = 1;
 
 	public Student(String name, int age, String grade) {
 		this.name = name;
